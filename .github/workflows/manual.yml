@@ -1,0 +1,11 @@
+name: Remote SSH
+on: [push]
+jobs:
+  build:
+  name: build
+  runs-on: ubuntu-latest
+    
+  steps:
+    - name: git
+      run: |
+git pull origin main
