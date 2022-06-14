@@ -6,7 +6,7 @@
 	}
 }
 
-@media (max-width : 1400px) {
+@media (max-width : 1359px) {
 
 	.contact-sec__map{
 		width: 650px;
@@ -77,6 +77,9 @@
 	.page__press-center .top-filters__btns-btn[data-event="filter"]{
 		display: block;
 	}
+	.main-line .menu{
+		justify-content: flex-start;
+	}
 }
 @media (max-width : 1024px) {
 	
@@ -142,7 +145,7 @@
 	
 }
 /* xl <= Extra extra large (xxl) */
-@media (max-width : 1400px) {
+@media (max-width : 1359px) {
 
 	.bucase-sec__items{
 		grid-template-columns: repeat(2, 1fr);
@@ -2647,7 +2650,7 @@
 		max-width: 1140px;
 	}
 }
-@media (min-width: 1400px){
+@media (min-width: 1359px){
 	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
 		max-width: 1230px;
 	}
